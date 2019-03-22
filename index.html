@@ -1,1 +1,193 @@
-<!DOCTYPE html><body>testing github pages</body></html>
+<!doctype html>
+<html>
+<head>
+
+<title>Projects</title>
+
+<!-- Github pages version -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<style type="text/css">
+    h3, h1 {
+        text-align: center;
+        width: inherit;
+    }
+    img {
+        border: 2px solid black;
+    }
+    .fleuron {
+        text-align: center;
+        font-size: 40px;
+        width: inherit;
+        margin: 40px 0px;
+    }
+    .row {
+        text-align: center;
+    }
+    .container {
+        position: relative;
+    }
+    .message {
+        position: absolute; 
+        display: none;
+        z-index: 10;
+    }
+    .www, .github {
+        margin: 10px;
+        display: inline-block;
+    }
+</style>
+
+<script>
+    $(document).ready(function() {
+        $("img").mouseenter(
+            function() {
+                $(this).css("opacity", "0.3")
+                $(this).next().css("bottom", this.height / 2 - 20)
+                console.log($(this).next().hasClass("except"))
+                if ($(this).next().hasClass("except") == true) {
+                    $(this).next().css("left", $(this).parent().width() / 2 - 30);
+                }
+                else {
+                    $(this).next().css("left", $(this).parent().width() / 2 - 68);
+                }
+                $(this).next().show()
+            });
+        $(".container").mouseleave(
+            function() {
+                $("img").css("opacity", "1");
+                $("img").next().hide()
+            }
+        );
+    }); 
+</script>
+
+</head>
+<body>
+<div class="jumbotron">
+    <h1>Projects</h1>
+</div>
+
+<div class="row">
+        <h3>Why Bot</h3>
+        <br/>
+        <div class="container">
+            <img src="static/images/why3.png" alt="A post by Why? bot"/>
+            <div class="message">
+                <div class="www">
+                    <a href="https://botsin.space/@why/">
+                        <button type="button" class="btn btn-default">www</button>
+                    </a>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/markeeaton/why">
+                        <button type="button" class="btn btn-default">github</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="fleuron">&#10087;</div>
+</div>
+<div class="row">
+        <h3>Fictograph</h3>
+        <br/>    
+        <div class="container">
+            <img src="static/images/auster-fictograph.png" alt="Chart of Paul Auster's works"/>
+            <div class="message">
+                <div class="www">
+                    <a href="http://fictograph.b7jl.org">
+                        <button type="button" class="btn btn-default">www</button>
+                    </a>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/markeeaton/fictograph">
+                        <button type="button" class="btn btn-default">github</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="fleuron">&#10087;</div>
+</div>
+<div class="row">
+        <h3>Index Visualizer</h3>
+        <br/>    
+        <div class="container">
+            <img src="static/images/IndexViz.png" alt="Collapsible tree visualization of an index"/>
+            <div class="message">
+                <div class="www">
+                    <a href="http://indexvisualizer.b7jl.org">
+                        <button type="button" class="btn btn-default">www</button>
+                    </a>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/markeeaton/index-visualizer">
+                        <button type="button" class="btn btn-default">github</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="fleuron">&#10087;</div>
+</div>
+<div class="row">
+        <h3>SeeCollections</h3>
+        <br/>
+        <div class="container">
+            <img src="static/images/PrimoViz.png" alt="Bubble chart of book holdings" />
+            <div class="message">
+                <div class="www">
+                    <a href="http://seecollections.b7jl.org">
+                        <button type="button" class="btn btn-default">www</button>
+                    </a>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/markeeaton/Primo-Visualization">
+                        <button type="button" class="btn btn-default">github</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="fleuron">&#10087;</div>
+</div>
+<div class="row">
+        <h3>Tweets by Month</h3>
+        <br/>
+        <div class="container">
+            <img src="static/images/tbm.png" alt="Bar chart of tweets by month"/>
+            <div class="message except">
+                <div class="github">
+                    <a href="https://github.com/markeeaton/Tweets-by-month">
+                        <button type="button" class="btn btn-default">github</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="fleuron">&#10087;</div>
+</div>
+<div class="row">
+        <h3>GH-Index</h3>
+        <br/>
+        <div class="container" style="margin-bottom:50px">
+            <img src="static/images/ghindex.png" alt="Screenshot of the gh-index webpage"/>
+            <div class="message">
+                <div class="www">
+                    <a href="http://ghindex.b7jl.org">
+                        <button type="button" class="btn btn-default">www</button>
+                    </a>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/markeeaton/gh-index">
+                        <button type="button" class="btn btn-default">github</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+</div>
+</body>
+</html>
