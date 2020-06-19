@@ -30,6 +30,7 @@
     .row {
         text-align: center;
         display: block;
+        margin:0px;
     }
     .container {
         position: relative;
@@ -46,8 +47,12 @@
     .btn {
         background-color: white;
     }
+    @media (max-width:1200px) {
+        img {
+            width:80%;
+        }
+    }
 </style>
-
 <script>
     $(document).ready(function() {
         $("img").mouseenter(
@@ -71,13 +76,14 @@
         );
     }); 
 </script>
-
 </head>
+
 <body>
-<a rel="me" href="https://mastodon.sdf.org/@ocertat"></a>
-<div class="jumbotron">
-    <h1>Projects</h1>
-    <h5><a href="https://www.kbcc.cuny.edu/facultyprofiles/markeaton.html">bio</a> / <a href="https://kingsboroughlibtech.commons.gc.cuny.edu">blog</a></h5>
+<div class="row">
+    <div class="jumbotron">
+        <h1>Projects</h1>
+        <h5><a href="https://www.kbcc.cuny.edu/facultyprofiles/markeaton.html">bio</a> / <a href="https://kingsboroughlibtech.commons.gc.cuny.edu">blog</a></h5>
+    </div>
 </div>
 
 <div class="row">
