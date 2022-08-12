@@ -1,5 +1,5 @@
 window.Seed = (function () {
-	const projects = [
+	const projectsComponent = [
 		{
 			id: 1,
 			title: "Open Journal Matcher",
@@ -66,5 +66,6 @@ window.Seed = (function () {
 			alt: "A collapsible tree visualization of an index",
 			github: "https://github.com/markeeaton/index-visualizer"
 		}
-	] 
-});
+	]; 
+  return { projectsComponent: projectsComponent };
+}());
