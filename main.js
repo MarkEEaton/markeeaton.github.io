@@ -1,7 +1,7 @@
 const projectsComponent = {
 	template: 
 	`<div class="row">
-    		<h3>{{ project.title }}</h3>
+    		<h3 v-html="project.title"></h3>
     		<br/>
         <div class="container">
             <img v-bind:src="project.image" v-bind:alt="project.alt"/>

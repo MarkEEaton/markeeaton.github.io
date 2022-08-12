@@ -9,7 +9,7 @@ window.Seed = (function () {
 		},
 		{
 			id: 2,
-			title: "A Nonsensical Abécédaire<br/>(Nanogenmo 2021)",
+			title: "A Nonsensical Ab\u00E9c\u00E9daire<br/>(Nanogenmo 2021)",
 			image: "static/images/nanogenmo2021.png",
 			alt: "A few lines of the novel A nonsensical abécédaire",
 		  www: "https://github.com/MarkEEaton/nanogenmo2021/blob/main/novel.txt",
@@ -48,7 +48,7 @@ window.Seed = (function () {
 		{
 			id: 7,
 			title: "Fictograph",
-			image: "static/images/auster-fictorgraph.png",
+			image: "static/images/auster-fictograph.png",
 			alt: "A chart of the popularity of Paul Auster's works",
 			github: "https://github.com/markeeaton/fictograph"
 		},
