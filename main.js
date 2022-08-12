@@ -5,7 +5,12 @@ const projectsComponent = {
     		<br/>
         <div class="container">
             <img v-bind:src="project.image" v-bind:alt="project.alt"/>
-            <div class="message">
+            <div class="message" v-bind:class="{ 'except' : !project.www }">
+								<div v-if="project.www" class="www">
+										<a v-bind:href="project.www">
+							          <button type="button" class="btn btn-outline-dark">www</button>
+										</a>
+								</div>
                 <div class="github">
                     <a v-bind:href="project.github">
                         <button type="button" class="btn btn-outline-dark">github</button>
