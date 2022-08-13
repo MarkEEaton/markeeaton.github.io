@@ -3,7 +3,6 @@ $(document).ready(function() {
         function() {
             $(this).css("opacity", "0.3")
             $(this).next().css("bottom", this.height / 2 - 20)
-            console.log($(this).next().hasClass("except"))
             if ($(this).next().hasClass("except") == true) {
                 $(this).next().css("left", $(this).parent().width() / 2 - 30);
             }
