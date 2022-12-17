@@ -1,5 +1,5 @@
 window.Seed = (function () {
-	const projectsComponent = [
+	const projectsComponent1 = [
 		{
 			id: 1,
 			title: "Open Journal Matcher",
@@ -9,25 +9,25 @@ window.Seed = (function () {
 		},
 		{
 			id: 2,
-			title: "A Nonsensical Ab\u00E9c\u00E9daire<br/>(Nanogenmo 2021)",
-			image: "static/images/nanogenmo2021.png",
-			alt: "A few lines of the novel A nonsensical abécédaire",
-		  www: "https://github.com/MarkEEaton/nanogenmo2021/blob/main/novel.txt",
-			github: "https://github.com/markeeaton/nanogenmo2021" 
-		},
-		{
-			id: 3,
-			title: "SeeCollections",
-			image: "static/images/PrimoViz.png",
-			alt: "Bubble chart of book holdings",
-			github: "https://github.com/markeeaton/Primo-Visualization"
-		},
-		{
-			id: 4,
 			title: "GH-Index",
 			image: "static/images/ghindex.png",
 			alt: "Screenshot of the gh-index webpage",
 			github: "https://github.com/markeeaton/gh-index"
+		},
+		{
+			id: 3,
+			title: "A Nonsensical Ab\u00E9c\u00E9daire<br/>(Nanogenmo 2021)",
+			image: "static/images/nanogenmo2021.png",
+			alt: "A few lines of the novel A nonsensical abécédaire",
+			www: "https://github.com/MarkEEaton/nanogenmo2021/blob/main/novel.txt",
+			github: "https://github.com/markeeaton/nanogenmo2021" 
+		},
+		{
+			id: 4,
+			title: "SeeCollections",
+			image: "static/images/PrimoViz.png",
+			alt: "Bubble chart of book holdings",
+			github: "https://github.com/markeeaton/Primo-Visualization"
 		},
 		{
 			id: 5,
@@ -36,7 +36,8 @@ window.Seed = (function () {
 			alt: "A few lines of the novel Wandering Around Ameria with Mark Twain",
 			www: "https://raw.githubusercontent.com/MarkEEaton/nanogenmo2020/master/novel.txt",
 			github: "https://github.com/markeeaton/nanogenmo2020"
-		},
+		}];
+	const projectsComponent2 = [
 		{
 			id: 6,
 			title: "Why Bot",
@@ -67,5 +68,5 @@ window.Seed = (function () {
 			github: "https://github.com/markeeaton/index-visualizer"
 		}
 	]; 
-  return { projectsComponent: projectsComponent };
+  return { projectsComponent1: projectsComponent1, projectsComponent2: projectsComponent2 };
 }());
