@@ -24,17 +24,19 @@ h3 {
 .flexcontainer1, .flexcontainer2 {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 50px;
 }
 
 .flexcontainer1 {
   grid-column: 1;
   grid-row: 1;
+  margin-left: 15%;
 }
 
 .flexcontainer2 {
   grid-column: 2;
   grid-row: 1;
+  margin-right: 15%;
 }
 
 article {
@@ -43,4 +45,16 @@ article {
 
 img {
   object-fit: cover;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  border: 2px solid black;
+}
+
+.card-title {
+  text-align: center;
 }
