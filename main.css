@@ -8,37 +8,24 @@ h3 {
 h5 {
 	text-align: center;
 }
-img {
-    border: 2px solid black;
-}
-.fleuron {
-    text-align: center;
-    font-size: 40px;
-    width: inherit;
-    margin: 40px 0px;
-}
 .row {
     text-align: center;
     display: block;
     margin:0px;
 }
+
 .container {
-    position: relative;
+  display: flex;
 }
-.message {
-    position: absolute; 
-    display: none;
-    z-index: 10;
+
+.section {
+  flex: 1 1 30%; /*grow*/
+  border: 1px solid;
+  margin: 25px;
 }
-.www, .github {
-    margin: 10px;
-    display: inline-block;
-}
-.btn {
-    background-color: white;
-}
-@media (max-width:1200px) {
-    img {
-        width:80%;
-    }
+
+@media (max-width: 768px) { /*breakpoint*/
+  .container {
+    flex-direction: column;
+  }
 }

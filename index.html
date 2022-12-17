@@ -6,7 +6,6 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-<script defer data-domain="projects.ocert.at" src="https://plausible.io/js/plausible.js"></script>
 <link rel="stylesheet" href="main.css" />
 </head>
 
@@ -15,20 +14,19 @@
 
 	<div class="row">
   	<div class="jumbotron">
-	    <h1>Projects</h1>
-      <h5><a href="https://www.kbcc.cuny.edu/facultyprofiles/markeaton.html">bio</a> / <a href="https://kingsboroughlibtech.commons.gc.cuny.edu">blog</a></h5>
-    </div>
+		<h1>Projects</h1>
+		<h5><a href="https://www.kbcc.cuny.edu/facultyprofiles/markeaton.html">bio</a> / <a href="https://kingsboroughlibtech.commons.gc.cuny.edu">blog</a></h5>
+	</div>
 	</div>
 
-<div id="app">
-	<article v-for="project in projects" v-bind:key="project.id">
-		<projects-component :project="project"></projects-component>
-	</article>
-</div><!-- end of app -->
+	<div id="app" class="container">
+		<article v-for="project in projects" v-bind:key="project.id">
+			<projects-component :project="project"></projects-component>
+		</article>
+	</div><!-- end of app -->
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8"></script>
 <script src="./projects.js"></script>
 <script src="./main.js"></script>
-<script src="./focus.js"></script>
 </body>
 </html>
