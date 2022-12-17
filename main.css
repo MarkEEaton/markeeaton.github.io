@@ -15,17 +15,11 @@ h5 {
 }
 
 .container {
-  display: flex;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
 }
 
-.section {
-  flex: 1 1 30%; /*grow*/
-  border: 1px solid;
-  margin: 25px;
-}
-
-@media (max-width: 768px) { /*breakpoint*/
-  .container {
-    flex-direction: column;
-  }
+img {
+  object-fit: cover;
 }
