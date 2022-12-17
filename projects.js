@@ -23,11 +23,11 @@ window.Seed = (function () {
 			github: "https://github.com/markeeaton/nanogenmo2021" 
 		},
 		{
-			id: 4,
-			title: "SeeCollections",
-			image: "static/images/PrimoViz.png",
-			alt: "Bubble chart of book holdings",
-			github: "https://github.com/markeeaton/Primo-Visualization"
+			id: 9,
+			title: "Index Visualizer",
+			image: "static/images/IndexViz.png",
+			alt: "A collapsible tree visualization of an index",
+			github: "https://github.com/markeeaton/index-visualizer"
 		},
 		{
 			id: 5,
@@ -61,11 +61,11 @@ window.Seed = (function () {
 			github: "https://github.com/markeeaton/Tweets-by-month"
 		},
 		{
-			id: 9,
-			title: "Index Visualizer",
-			image: "static/images/IndexViz.png",
-			alt: "A collapsible tree visualization of an index",
-			github: "https://github.com/markeeaton/index-visualizer"
+			id: 4,
+			title: "SeeCollections",
+			image: "static/images/PrimoViz.png",
+			alt: "Bubble chart of book holdings",
+			github: "https://github.com/markeeaton/Primo-Visualization"
 		}
 	]; 
   return { projectsComponent1: projectsComponent1, projectsComponent2: projectsComponent2 };
