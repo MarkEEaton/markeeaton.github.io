@@ -5,18 +5,13 @@ h3, h1 {
 h3 {
   margin-top: 50px;
 }
-.subhead {
+.subtitle {
   text-align: center;
 }
 .row {
   text-align: center;
   display: block;
   margin: 0px;
-}
-
-.section, .section:hover {
-  color: #111;
-  text-decoration: none;
 }
 
 .gridcontainer {
@@ -87,6 +82,16 @@ img {
   border: 2px solid black;
 }
 
-.card-title {
+.card-title, .card-body {
   text-align: center;
+}
+
+.section, .section:hover {
+  color: #111;
+  text-decoration: none;
+}
+
+.subhead {
+  font-size: 0.8em;
+  margin-top: -10px;
 }

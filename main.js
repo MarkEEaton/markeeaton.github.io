@@ -5,7 +5,8 @@ const projectsComponent = {
 		<div class="card">
 			<img class="card-img-top" v-bind:src="project.image" v-bind:alt="project.alt">
 			<div class="card-body">
-				<h5 class="card-title" v-html="project.title"></h5>
+				<h5 class="card-title">{{ project.title }}</h5>
+				<div class="subhead">{{ project.subhead }}</div>
 			</div>
 		</div>
 	</a>
