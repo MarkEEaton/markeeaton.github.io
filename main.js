@@ -1,12 +1,14 @@
 const projectsComponent = {
 	template: 
 	`
-	<div class="card section">
-		<img class="card-img-top" v-bind:src="project.image" v-bind:alt="project.alt">
-		<div class="card-body">
-			<h5 class="card-title" v-html="project.title"></h5>
+	<a v-bind:href="project.url" class="section">
+		<div class="card">
+			<img class="card-img-top" v-bind:src="project.image" v-bind:alt="project.alt">
+			<div class="card-body">
+				<h5 class="card-title" v-html="project.title"></h5>
+			</div>
 		</div>
-	</div>
+	</a>
 	`,
 	props: ['project']
 }
