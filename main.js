@@ -3,7 +3,7 @@ const projectsComponent = {
 	`
 	<a v-bind:href="project.url" class="section">
 		<div class="card">
-			<img class="card-img-top" v-bind:src="project.image" v-bind:alt="project.alt">
+			<img class="shadow card-img-top" v-bind:src="project.image" v-bind:alt="project.alt" />
 			<div class="card-body">
 				<h5 class="card-title">{{ project.title }}</h5>
 				<div class="subhead">{{ project.subhead }}</div>

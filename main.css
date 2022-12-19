@@ -70,10 +70,6 @@ article {
   flex: 1;
 }
 
-img {
-  object-fit: cover;
-}
-
 .card {
   border: none;
 }
