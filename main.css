@@ -2,16 +2,25 @@ h3, h1 {
   text-align: center;
   width: inherit;
 }
+
 h3 {
   margin-top: 50px;
 }
+
 .subtitle {
   text-align: center;
 }
+
 .row {
   text-align: center;
   display: block;
-  margin: 0px;
+  margin: 0;
+}
+
+.jumbotron {
+  background-color: #fff;
+  border-radius: 0;
+  margin-bottom: -10px;
 }
 
 .gridcontainer {
@@ -46,6 +55,10 @@ h3 {
 }
 
 @media (max-width: 900px) {
+
+  .jumbotron {
+    margin-bottom: 0;
+  }
 
   .gridcontainer {
     grid-template-columns: 1fr;
