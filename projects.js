@@ -51,6 +51,14 @@ window.Seed = (function () {
 		},
 		{
 			id: 7,
+			title: "mastodon.ocert.at",
+			subhead: "I'm running a Mastodon server!",
+			image: "static/images/moa.png",
+			alt: "A screenshot from mastodon.ocert.at",
+			url: "https://mastodon.ocert.at",
+		},
+		{
+			id: 8,
 			title: "Fictograph",
 			subhead: "Plot the awesomeness of an author's work over time",
 			image: "static/images/auster-fictograph.png",
@@ -58,7 +66,7 @@ window.Seed = (function () {
 			url: "https://github.com/markeeaton/fictograph"
 		},
 		{
-			id: 8,
+			id: 9,
 			title: "Tweets by Month",
 			subhead: "Graph your number of tweets per month",
 			image: "static/images/tbm.png",
@@ -66,7 +74,7 @@ window.Seed = (function () {
 			url: "https://github.com/markeeaton/Tweets-by-month"
 		},
 		{
-			id: 4,
+			id: 10,
 			title: "SeeCollections",
 			subhead: "Visualize your collections with the Primo API",
 			image: "static/images/PrimoViz.png",
