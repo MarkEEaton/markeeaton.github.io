@@ -59,7 +59,7 @@ const app = createApp({
 					image: "static/images/twain.png",
 					alt: "A few lines of the novel Wandering Around Ameria with Mark Twain",
 					url: "https://github.com/markeeaton/nanogenmo2020"
-				}];
+				}],
 			projectsComponent2: [
 				{
 					id: 6,
