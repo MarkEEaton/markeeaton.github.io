@@ -102,10 +102,11 @@ const app = createApp({
 					url: "https://github.com/markeeaton/Primo-Visualization"
 				}
 			]
-		},
-		components: {
-			'projects-component': projectsComponent
 		}
-	});
+	},
+	components: {
+		'projects-component': projectsComponent
+	}
+});
 app.mount('#app');
 
