@@ -14,15 +14,16 @@ const projectsComponent = {
 	props: ['project']
 }
 
-new Vue({
-	el: '#app',
-	data: {
-		projects1: Seed.projectsComponent1,
-		projects2: Seed.projectsComponent2
-  },
-	components: {
-		'projects-component': projectsComponent
-	}
-});
+const { createApp } = Vue;
 
+const app = createApp{{
+  data() {
+    projects1: Seed.projectsComponent1,
+    projects2: Seed.projectsComponent2
+  },
+  components: {
+    'projects-component': projectsComponent
+  }
+});
+app.mount('#app');
 
