@@ -19,7 +19,7 @@ const { createApp } = Vue;
 const app = createApp({
 	data() {
 		return {
-			projectsComponent1: [
+			projects1: [
 				{
 					id: 1,
 					title: "Open Journal Matcher",
@@ -60,7 +60,7 @@ const app = createApp({
 					alt: "A few lines of the novel Wandering Around Ameria with Mark Twain",
 					url: "https://github.com/markeeaton/nanogenmo2020"
 				}],
-			projectsComponent2: [
+			projects2: [
 				{
 					id: 6,
 					title: "Why Bot",
@@ -101,7 +101,7 @@ const app = createApp({
 					alt: "Bubble chart of book holdings",
 					url: "https://github.com/markeeaton/Primo-Visualization"
 				}
-			];
+			]
 		},
 		components: {
 			'projects-component': projectsComponent
