@@ -16,7 +16,7 @@ const projectsComponent = {
 
 const { createApp } = Vue;
 
-const app = createApp{{
+const app = createApp({
   data() {
     projects1: Seed.projectsComponent1,
     projects2: Seed.projectsComponent2
