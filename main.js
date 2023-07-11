@@ -31,9 +31,9 @@ const app = createApp({
                 {
                         id: 2,
                         title: "Kingsborough Library Webpage",
-                        subhead: "I built a homepage for the Kingsborough Library",
+                        subhead: "A homepage for the Kingsborough Library",
                         image: "static/images/kbcc.png",
-                        alt: "The logo for the Kingsborough Library",
+                        alt: "A screenshot of the Kingsborough Library homepage",
                         url: "https://library.kbcc.cuny.edu"
                 },
 				{
