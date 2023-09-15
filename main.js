@@ -28,14 +28,14 @@ const app = createApp({
 					alt: "A list of results from the Open Journal Matcher",
 					url: "https://github.com/markeeaton/open-journal-matcher"
 				},
-                {
-                        id: 2,
-                        title: "library.kbcc.cuny.edu",
-                        subhead: "A homepage for the Kingsborough Library",
-                        image: "static/images/kbcc.png",
-                        alt: "A screenshot of the Kingsborough Library homepage",
-                        url: "https://library.kbcc.cuny.edu"
-                },
+				{
+					id: 2,
+					title: "library.kbcc.cuny.edu",
+					subhead: "A homepage for the Kingsborough Library",
+					image: "static/images/kbcc.png",
+					alt: "A screenshot of the Kingsborough Library homepage",
+					url: "https://library.kbcc.cuny.edu"
+				},
 				{
 					id: 3,
 					title: "GH-Index",
@@ -71,6 +71,14 @@ const app = createApp({
 			projects2: [
 				{
 					id: 7,
+					title: "AR Scavenger Hunt",
+					subhead: "A library orientation game with augmented reality",
+					image: "static/images/IMG_0996.PNG",
+					alt: "An yellow AR cube floating in front of a bookshelf ",
+					url: "https://botsin.space/@why/",
+				},
+				{
+					id: 8,
 					title: "Why Bot",
 					subhead: "Asks the armchair philosopher's favorite question: Why?",
 					image: "static/images/why3.png",
@@ -78,7 +86,7 @@ const app = createApp({
 					url: "https://botsin.space/@why/",
 				},
 				{
-					id: 8,
+					id: 9,
 					title: "mastodon.ocert.at",
 					subhead: "I'm running a Mastodon server!",
 					image: "static/images/moa.png",
@@ -86,7 +94,7 @@ const app = createApp({
 					url: "https://mastodon.ocert.at",
 				},
 				{
-					id: 9,
+					id: 10,
 					title: "Fictograph",
 					subhead: "Plot the awesomeness of an author's work over time",
 					image: "static/images/auster-fictograph.png",
@@ -94,7 +102,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/fictograph"
 				},
 				{
-					id: 10,
+					id: 11,
 					title: "Tweets by Month",
 					subhead: "Graph your number of tweets per month",
 					image: "static/images/tbm.png",
@@ -102,7 +110,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/Tweets-by-month"
 				},
 				{
-					id: 11,
+					id: 12,
 					title: "SeeCollections",
 					subhead: "Visualize your collections with the Primo API",
 					image: "static/images/PrimoViz.png",
