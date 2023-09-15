@@ -73,9 +73,9 @@ const app = createApp({
 					id: 7,
 					title: "AR Scavenger Hunt",
 					subhead: "A library orientation game with augmented reality",
-					image: "static/images/IMG_0996.PNG",
+					image: "static/images/ar.jpg",
 					alt: "An yellow AR cube floating in front of a bookshelf ",
-					url: "https://botsin.space/@why/",
+					url: "https://github.com/MarkEEaton/ar-scavenger-hunt",
 				},
 				{
 					id: 8,
