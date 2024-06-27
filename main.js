@@ -38,6 +38,14 @@ const app = createApp({
 				},
 				{
 					id: 3,
+					title: "Electronic Collections App",
+					subhead: "A status page for CUNY electronic collections",
+					image: "static/images/electroniccollections.png",
+					alt: "A screenshot of recent results from the Electronic Collections app",
+					url: "https://electroniccollections.ocert.at/",
+				},
+				{
+					id: 4,
 					title: "GH-Index",
 					subhead: "Calculates h-index, but for open source contributions",
 					image: "static/images/ghindex.png",
@@ -45,7 +53,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/gh-index"
 				},
 				{
-					id: 4,
+					id: 5,
 					title: "A Nonsensical Ab\u00E9c\u00E9daire",
 					subhead: "A novel for NaNoGenMo 2021",
 					image: "static/images/nanogenmo2021.png",
@@ -53,7 +61,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/nanogenmo2021" 
 				},
 				{
-					id: 5,
+					id: 6,
 					title: "Index Visualizer",
 					subhead: "Visually explore a back-of-the-book index",
 					image: "static/images/IndexViz.png",
@@ -61,7 +69,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/index-visualizer"
 				},
 				{
-					id: 6,
+					id: 7,
 					title: "Wandering Around America with Mark Twain",
 					subhead: "A novel for NaNoGenMo 2020",
 					image: "static/images/twain.png",
@@ -70,7 +78,7 @@ const app = createApp({
 				}],
 			projects2: [
 				{
-					id: 7,
+					id: 8,
 					title: "AR Scavenger Hunt",
 					subhead: "A library orientation game with augmented reality",
 					image: "static/images/ar.jpg",
@@ -78,7 +86,7 @@ const app = createApp({
 					url: "https://github.com/MarkEEaton/ar-scavenger-hunt",
 				},
 				{
-					id: 8,
+					id: 9,
 					title: "Why Bot",
 					subhead: "Asks the armchair philosopher's favorite question: Why?",
 					image: "static/images/why3.png",
@@ -86,7 +94,7 @@ const app = createApp({
 					url: "https://botsin.space/@why/",
 				},
 				{
-					id: 9,
+					id: 10,
 					title: "mastodon.ocert.at",
 					subhead: "I'm running a Mastodon server!",
 					image: "static/images/moa.png",
@@ -94,7 +102,7 @@ const app = createApp({
 					url: "https://mastodon.ocert.at",
 				},
 				{
-					id: 10,
+					id: 11,
 					title: "Fictograph",
 					subhead: "Plot the awesomeness of an author's work over time",
 					image: "static/images/auster-fictograph.png",
@@ -102,7 +110,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/fictograph"
 				},
 				{
-					id: 11,
+					id: 12,
 					title: "Tweets by Month",
 					subhead: "Graph your number of tweets per month",
 					image: "static/images/tbm.png",
@@ -110,7 +118,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/Tweets-by-month"
 				},
 				{
-					id: 12,
+					id: 13,
 					title: "SeeCollections",
 					subhead: "Visualize your collections with the Primo API",
 					image: "static/images/PrimoViz.png",
