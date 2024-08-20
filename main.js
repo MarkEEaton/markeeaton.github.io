@@ -98,7 +98,7 @@ const app = createApp({
 					title: "Book Indexes",
 					subhead: "I indexed books in anthropology and religious studies",
 					image: "static/images/indexes.png",
-					alt: "A list of some books that have been indexed"
+					alt: "A list of some books that have been indexed",
 					url: "https://www.zotero.org/groups/5631601/mark_eatons_published_indexes",
 				},
 				{
