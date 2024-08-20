@@ -82,7 +82,7 @@ const app = createApp({
 					title: "AR Scavenger Hunt",
 					subhead: "A library orientation game with augmented reality",
 					image: "static/images/ar.jpg",
-					alt: "An yellow AR cube floating in front of a bookshelf ",
+					alt: "An yellow AR cube floating in front of a bookshelf",
 					url: "https://github.com/MarkEEaton/ar-scavenger-hunt",
 				},
 				{
@@ -95,6 +95,14 @@ const app = createApp({
 				},
 				{
 					id: 10,
+					title: "Book Indexes",
+					subhead: "I indexed books in anthropology and religious studies",
+					image: "static/images/indexes.png",
+					alt: "A list of some books that have been indexed"
+					url: "https://www.zotero.org/groups/5631601/mark_eatons_published_indexes",
+				},
+				{
+					id: 11,
 					title: "mastodon.ocert.at",
 					subhead: "I'm running a Mastodon server!",
 					image: "static/images/moa.png",
@@ -102,7 +110,7 @@ const app = createApp({
 					url: "https://mastodon.ocert.at",
 				},
 				{
-					id: 11,
+					id: 12,
 					title: "Fictograph",
 					subhead: "Plot the awesomeness of an author's work over time",
 					image: "static/images/auster-fictograph.png",
@@ -110,7 +118,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/fictograph"
 				},
 				{
-					id: 12,
+					id: 13,
 					title: "Tweets by Month",
 					subhead: "Graph your number of tweets per month",
 					image: "static/images/tbm.png",
@@ -118,7 +126,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/Tweets-by-month"
 				},
 				{
-					id: 13,
+					id: 14,
 					title: "SeeCollections",
 					subhead: "Visualize your collections with the Primo API",
 					image: "static/images/PrimoViz.png",
