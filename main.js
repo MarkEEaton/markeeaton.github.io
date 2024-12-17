@@ -91,7 +91,7 @@ const app = createApp({
 					subhead: "Asks the armchair philosopher's favorite question: Why?",
 					image: "static/images/why3.png",
 					alt: "A post by Why Bot",
-					url: "https://botsin.space/@why/",
+					url: "https://mastodon.ocert.at/@why/",
 				},
 				{
 					id: 10,
