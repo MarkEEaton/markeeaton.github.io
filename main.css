@@ -20,7 +20,7 @@ h3 {
 .jumbotron {
   background-color: #fff;
   border-radius: 0;
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 
 .gridcontainer {
@@ -57,7 +57,7 @@ h3 {
 @media (max-width: 900px) {
 
   .jumbotron {
-    margin-bottom: 50px;
+    margin: 50px 0;
   }
 
   .gridcontainer {
