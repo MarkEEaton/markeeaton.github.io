@@ -26,7 +26,7 @@ const app = createApp({
 					subhead: "A tool to find relevant open access journals",
 					image: "static/images/ojm2.png",
 					alt: "A list of results from the Open Journal Matcher",
-					url: "https://github.com/markeeaton/open-journal-matcher"
+					url: "https://tildegit.org/MarkEEaton/open-journal-matcher"
 				},
 				{
 					id: 2,
@@ -83,7 +83,7 @@ const app = createApp({
 					subhead: "A library orientation game with augmented reality",
 					image: "static/images/ar.jpg",
 					alt: "An yellow AR cube floating in front of a bookshelf",
-					url: "https://github.com/MarkEEaton/ar-scavenger-hunt",
+					url: "https://tildegit.org/MarkEEaton/ar-scavenger-hunt",
 				},
 				{
 					id: 9,
