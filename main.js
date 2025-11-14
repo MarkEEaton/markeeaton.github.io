@@ -22,6 +22,14 @@ const app = createApp({
 			projects1: [
 				{
 					id: 1,
+					title: "Humanities Methods in Librarianship",
+					subhead: "A new diamond open access journal",
+					image: "static/images/hml.png",
+					alt: "A screenshot of a portion of the Humanities Methods in Librarianship homepage",
+					url: "https://www.humanitiesmethods.org"
+				},
+				{
+					id: 2,
 					title: "Open Journal Matcher",
 					subhead: "A tool to find relevant open access journals",
 					image: "static/images/ojm2.png",
@@ -29,7 +37,7 @@ const app = createApp({
 					url: "https://tildegit.org/MarkEEaton/open-journal-matcher"
 				},
 				{
-					id: 2,
+					id: 3,
 					title: "library.kbcc.cuny.edu",
 					subhead: "A homepage for the Kingsborough Library",
 					image: "static/images/kbcc.png",
@@ -37,7 +45,7 @@ const app = createApp({
 					url: "https://library.kbcc.cuny.edu"
 				},
 				{
-					id: 3,
+					id: 4,
 					title: "Electronic Collections App",
 					subhead: "A status page for CUNY electronic collections",
 					image: "static/images/electroniccollections.png",
@@ -45,7 +53,7 @@ const app = createApp({
 					url: "https://electroniccollections.ocert.at/",
 				},
 				{
-					id: 4,
+					id: 5,
 					title: "GH-Index",
 					subhead: "Calculates h-index, but for open source contributions",
 					image: "static/images/ghindex.png",
@@ -53,7 +61,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/gh-index"
 				},
 				{
-					id: 5,
+					id: 6,
 					title: "A Nonsensical Ab\u00E9c\u00E9daire",
 					subhead: "A novel for NaNoGenMo 2021",
 					image: "static/images/nanogenmo2021.png",
@@ -61,7 +69,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/nanogenmo2021" 
 				},
 				{
-					id: 6,
+					id: 7,
 					title: "Index Visualizer",
 					subhead: "Visually explore a back-of-the-book index",
 					image: "static/images/IndexViz.png",
@@ -69,7 +77,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/index-visualizer"
 				},
 				{
-					id: 7,
+					id: 8,
 					title: "Wandering Around America with Mark Twain",
 					subhead: "A novel for NaNoGenMo 2020",
 					image: "static/images/twain.png",
@@ -78,7 +86,7 @@ const app = createApp({
 				}],
 			projects2: [
 				{
-					id: 8,
+					id: 9,
 					title: "AR Scavenger Hunt",
 					subhead: "A library orientation game with augmented reality",
 					image: "static/images/ar.jpg",
@@ -86,7 +94,7 @@ const app = createApp({
 					url: "https://tildegit.org/MarkEEaton/ar-scavenger-hunt",
 				},
 				{
-					id: 9,
+					id: 10,
 					title: "Why Bot",
 					subhead: "Asks the armchair philosopher's favorite question: Why?",
 					image: "static/images/why3.png",
@@ -94,7 +102,7 @@ const app = createApp({
 					url: "https://mastodon.ocert.at/@why/",
 				},
 				{
-					id: 10,
+					id: 11,
 					title: "Book Indexes",
 					subhead: "I indexed some books in anthropology and religious studies",
 					image: "static/images/indexes.png",
@@ -102,7 +110,7 @@ const app = createApp({
 					url: "https://www.zotero.org/groups/5631601/mark_eatons_published_indexes",
 				},
 				{
-					id: 11,
+					id: 12,
 					title: "mastodon.ocert.at",
 					subhead: "I'm running a Mastodon server!",
 					image: "static/images/moa.png",
@@ -110,7 +118,7 @@ const app = createApp({
 					url: "https://mastodon.ocert.at",
 				},
 				{
-					id: 12,
+					id: 13,
 					title: "Fictograph",
 					subhead: "Plot the awesomeness of an author's work over time",
 					image: "static/images/auster-fictograph.png",
@@ -118,7 +126,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/fictograph"
 				},
 				{
-					id: 13,
+					id: 14,
 					title: "Tweets by Month",
 					subhead: "Graph your number of tweets per month",
 					image: "static/images/tbm.png",
@@ -126,7 +134,7 @@ const app = createApp({
 					url: "https://github.com/markeeaton/Tweets-by-month"
 				},
 				{
-					id: 14,
+					id: 15,
 					title: "SeeCollections",
 					subhead: "Visualize your collections with the Primo API",
 					image: "static/images/PrimoViz.png",
