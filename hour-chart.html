@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude Code Usage by Hour</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #1a1a2e;
+      color: #e0e0e0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .container {
+      width: 90%;
+      max-width: 900px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <canvas id="hourChart"></canvas>
+  </div>
+  <script>
+    const hourCounts = {
+      0: 5, 1: 1, 2: 2, 3: 1, 7: 1, 8: 4,
+      11: 3, 12: 1, 13: 7, 14: 3, 15: 3,
+      16: 6, 17: 1, 18: 5, 19: 1, 20: 6,
+      21: 4, 22: 3, 23: 4
+    };
+
+    const labels = Array.from({ length: 24 }, (_, i) => {
+      const suffix = i < 12 ? 'am' : 'pm';
+      const h = i === 0 ? 12 : i > 12 ? i - 12 : i;
+      return h + suffix;
+    });
+
+    const data = Array.from({ length: 24 }, (_, i) => hourCounts[i] || 0);
+
+    new Chart(document.getElementById('hourChart'), {
+      type: 'bar',
+      data: {
+        labels,
+        datasets: [{
+          label: 'Sessions',
+          data,
+          backgroundColor: data.map(v =>
+            v === 0 ? 'rgba(100,100,140,0.2)' : 'rgba(99,163,255,0.75)'
+          ),
+          borderColor: 'rgba(99,163,255,1)',
+          borderWidth: 1,
+          borderRadius: 4
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          title: {
+            display: true,
+            text: 'Claude Code Sessions by Hour of Day',
+            color: '#e0e0e0',
+            font: { size: 18 }
+          },
+          legend: { display: false }
+        },
+        scales: {
+          x: {
+            ticks: { color: '#aaa' },
+            grid: { color: 'rgba(255,255,255,0.05)' }
+          },
+          y: {
+            beginAtZero: true,
+            ticks: { color: '#aaa', stepSize: 1 },
+            grid: { color: 'rgba(255,255,255,0.08)' }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
